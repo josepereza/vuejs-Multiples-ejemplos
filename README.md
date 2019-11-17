@@ -59,9 +59,8 @@
     El <div> no será visible hasta que la compilación haya terminado.
 
     ejemplo:
-    
     ```
-    <div id="#app">
+<div id="#app">
     <h1 v-if="mostrarTitulo">
         {{ titulo }}
     </h1>
@@ -71,16 +70,5 @@
     </p>
 </div>
 
-<script>
-    var app = new Vue({
-        el: '#app',
-        data: {
-            titulo: 'Vue.js do jeito ninja',
-            paragrafo: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            mostrarTitulo: true,
-            mostrarParagrafo: true,
-        },
-    });
-</script>
-```
+ ```
  
