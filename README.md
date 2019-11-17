@@ -9,7 +9,8 @@
     Cambia la propiedad CSS display del elemento basado en la veracidad del valor de la expresión.
 
     La directiva dispara transiciones cuando su condición cambia.
-    Hace aparecer o despararecer un elemento . La diferencia con v-if esque este ultimo borra el elemento y v-show lo oculta.
+    Hace aparecer o despararecer un elemento . 
+    La diferencia con v-if esque este ultimo borra el elemento y v-show lo oculta.
     
   ##  v-cloak
 
