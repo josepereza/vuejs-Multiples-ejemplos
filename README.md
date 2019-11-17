@@ -44,9 +44,12 @@
 
     Uso:
 
-    Esta directiva permanecerá en el elemento hasta que la instancia Vue asociada termine su compilación. Combinada con reglas de CSS tal como [v-cloak] { display: none }, esta directiva puede ser utilizada para esconder mustache bindings no compilados hasta que la instancia de Vue este lista.
+    Esta directiva permanecerá en el elemento hasta que la instancia Vue asociada termine su compilación. 
+    Combinada con reglas de CSS tal como [v-cloak] { display: none }, esta directiva puede ser utilizada 
+    para esconder mustache bindings no compilados hasta que la instancia de Vue este lista.
 
     Ejemplo:
+    
 ```
     [v-cloak] {
       display: none;
