@@ -14,7 +14,7 @@
     
      ejemplo:
     
-  ```
+```
     <div id="#app">
     <h1 v-if="mostrarTitulo">
         {{ titulo }}
@@ -47,7 +47,7 @@
     Esta directiva permanecerá en el elemento hasta que la instancia Vue asociada termine su compilación. Combinada con reglas de CSS tal como [v-cloak] { display: none }, esta directiva puede ser utilizada para esconder mustache bindings no compilados hasta que la instancia de Vue este lista.
 
     Ejemplo:
-
+```
     [v-cloak] {
       display: none;
     }
@@ -55,20 +55,7 @@
     <div v-cloak>
       {{ message }}
     </div>
-
+```
     El <div> no será visible hasta que la compilación haya terminado.
 
-    ejemplo:
-```
-<div id="#app">
-    <h1 v-if="mostrarTitulo">
-        {{ titulo }}
-    </h1>
-
-    <p v-show="mostrarParagrafo">
-        {{ paragrafo }}
-    </p>
-</div>
-
-```
- 
+    
