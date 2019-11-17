@@ -59,7 +59,7 @@
     El <div> no será visible hasta que la compilación haya terminado.
 
     ejemplo:
-    ```
+```
 <div id="#app">
     <h1 v-if="mostrarTitulo">
         {{ titulo }}
@@ -70,5 +70,5 @@
     </p>
 </div>
 
- ```
+```
  
