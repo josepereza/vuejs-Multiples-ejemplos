@@ -14,7 +14,7 @@
     
      ejemplo:
     
-    ```
+  ```
     <div id="#app">
     <h1 v-if="mostrarTitulo">
         {{ titulo }}
